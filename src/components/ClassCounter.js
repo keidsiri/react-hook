@@ -5,11 +5,11 @@ export class ClassCounter extends Component {
     super(props)
 
     this.state = {
-      count:0
+      count: 0
     }
   }
 
-  implementCount = () => {
+  incrementCount = () => {
     this.setState({
       count: this.state.count + 1
     })
